@@ -55,3 +55,9 @@ string[] CheckSymbolAndCreateNewArray(string[] array)
     }
     return newArray;
 }
+
+string[] array = CreateArray();
+System.Console.WriteLine("Массив введенный пользователем> ");
+PrintArray(array);
+System.Console.WriteLine("Новый массив> ");
+PrintArray(CheckSymbolAndCreateNewArray(array));
